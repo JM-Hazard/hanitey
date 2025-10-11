@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Truculenta", sans-serif;
+    ;
+}
+
+bodY {
+    background: #1f242d;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    /* background: slateblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.nav-bar .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    margin-left: 40px;
+    position: relative;
+
+}
+
+.nav-bar ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(33, 172, 207);
+    transition: 0.5s;
+}
+
+.nav-bar ul li a:hover,
+.nav-bar ul li.active a {
+    color: #f08408
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #fff;
+}
+
+.home-info h1 {
+
+    font-size: 55px;
+}
+
+.home-info h2 {
+    font-size: 35px;
+    margin-top:-10px;
+
+}
+
+span {
+    color: rgb(235, 15, 143);
+}
+
+.home-info p{
+font-size:18px;
+margin:10px 0 25px;
+}
+.home-info .btn-sci {
+    display: flex;
+    align-items: center;
+ 
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background:rgb(12, 235, 12);
+    border-radius: 45px;
+    box-shadow: 0 0 10px #370bd6;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f242d;
+    transition: .5s;
+}
+
+.btn:hover{
+ background: transparent;
+ color: #0be60b;
+ box-shadow: none;
+}
+.sci{
+    margin-left: 20px;
+
+}
+.sci a{
+    display: inline-flex;
+    padding: 18px;
+    border: 2px solid green;
+    border-radius: 50%;
+    font-size: 18px;
+    color: green;
+    margin:0 8px;
+    transition:.5s;
+ 
+}
+.sci a:hover{
+    background:#11d811;
+    color: #1f242d;
+    box-shadow: 0 0 15px green;
+}
+
+.home-img .img-box{
+    width: 32vw;
+    height: 32vw;
+    background: red;
+    border-radius: 50%;
+}
+.home-img .img-box .img-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.home-img .img-box .img-item img{
+    position: absolute;
+    display: block;
+    width:85%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+    
